@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon|Libre+Barcode+39+Extended+Text|Lobster+Two|Open+Sans');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+/*.disablescrolling{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}*/
+img{
+     width: 15em;
+     height: 15em;
+    margin: 2em;
+}
+.block{
+    background-color: #D3D3D3;
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    opacity: 0.9;
+}
+.btnlist > a > i{
+    font-size: 2em;
+}
+
+.nav-pills{
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 3.1em;
+    color: 	#DCDCDC;
+
+}
+.nav-pills > .pull-right{
+    font-family: 'Lobster Two';
+    font-size: 0.7em;
+    color: 	#DCDCDC;
+    font
+}
+#line{
+    height:0.2em;
+    background-color: orange;
+}
+a{
+    color: black;
+}
+.section1{
+    text-align: center;
+    font-family: 'Kreon', serif;
+}
+.section2{
+    font-family: 'Kreon', serif;
+    font-size: 2em;
+
+}
+.section2 > .row{
+    margin: 1em;
+}
+/*Skillbars */
+
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    margin-left: -20px;
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 70%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.react {width: 60%; background-color: #808080;} /* Dark Grey */
+.django {width: 60%; background-color: #FFA500;} /* Dark Grey */
