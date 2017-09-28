@@ -1,0 +1,2 @@
+$('.smooth').localScroll();
+$('.top').localScroll();

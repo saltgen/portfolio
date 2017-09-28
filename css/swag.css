@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Kreon|Libre+Barcode+39+Extended+Text|Lobster+Two|Open+Sans');
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+/*.disablescrolling{
+    overflow-y:hidden;
+    overflow-x:hidden;
+}*/
+img{
+     width: 15em;
+     height: 15em;
+    margin: 2em;
+}
+.block{
+    background-color: #D3D3D3;
+    width: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    opacity: 0.9;
+}
+.btnlist{
+    padding: .5em;
+}
+.btnlist > a > i{
+    font-size: 2em;
+}
+.btnlist > .btn-success{
+    background-color: #F7AE57;
+}
+
+
+.nav-pills{
+    font-family: 'Libre Barcode 39 Extended Text', cursive;
+    font-size: 3.1em;
+    color: 	#DCDCDC;
+
+}
+.nav-pills > .pull-right{
+    font-family: 'Lobster Two';
+    font-size: 0.7em;
+    color: 	#DCDCDC;
+    font
+}
+#line{
+    height:0.2em;
+    background-color: orange;
+}
+a{
+    color: black;
+}
+.section1{
+    text-align: center;
+    font-family: 'Kreon', serif;
+}
+.section2{
+    font-family: 'Kreon', serif;
+    font-size: 2em;
+    margin: .5em;
+
+}
+.section2 > .row{
+    margin: 1em;
+}
+.section2 > h1{
+    text-decoration: underline;
+}
+.section3 > .row{
+    margin: 1em;
+}
+.section3 > h1{
+    text-decoration: underline;
+}
+.section4 > .row{
+    margin: 1em;
+}
+.section4 > h1{
+    text-decoration: underline;
+}
+
+.jumbotron{
+
+    height: 28em;
+}
+.section3 > .container{
+    height: 28em;
+}
+.section4{
+    font-family: 'Kreon', serif;
+    font-size: 2em;
+    margin: .5em;
+
+}
+#fix{
+    height: 22em;
+    overflow-y: scroll;
+}
+.resume{
+    margin: 0 auto;
+    display: table;
+    margin-bottom: -.5em;
+
+}
+textarea {
+    resize: none;
+}
+.btn-warning{
+    font-family: 'Kreon', serif;
+    font-size: .8em;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+/*Skillbars */
+
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    margin-left: -20px;
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.top{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-shadow: 2px;
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+.footer{
+    font-family: 'Kreon', serif;
+    font-size: 1.5em;
+    color: 	black;
+    text-align: center;
+    text-shadow: 2px;
+
+}
+form > .row{
+
+    margin: 1em;
+}
+
+.html {width: 90%; background-color: #4CAF50;} /* Green */
+.css {width: 70%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.react {width: 60%; background-color: #808080;} /* Dark Grey */
+.python {width: 50%; background-color: #FFA500;} /* Dark Grey */
