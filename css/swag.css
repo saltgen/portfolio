@@ -66,21 +66,15 @@ a{
 .section2 > .row{
     margin: 1em;
 }
-.section2 > h1{
-    text-decoration: underline;
-}
+
 .section3 > .row{
     margin: 1em;
 }
-.section3 > h1{
-    text-decoration: underline;
-}
+
 .section4 > .row{
     margin: 1em;
 }
-.section4 > h1{
-    text-decoration: underline;
-}
+
 
 .jumbotron{
 
@@ -153,6 +147,10 @@ textarea {
 form > .row{
 
     margin: 1em;
+}
+
+#gform{
+    font-weight: normal;
 }
 
 .html {width: 90%; background-color: #4CAF50;} /* Green */
